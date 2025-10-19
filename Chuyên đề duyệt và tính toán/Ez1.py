@@ -1,4 +1,4 @@
-with open ("MINSEG.INP", "r") as fi:
+with open ("MINSEG.INP", "r") as fi
     n = int(fi.readline().strip())
     a = list(map(int, fi.readline().strip().split()))
 t = None
